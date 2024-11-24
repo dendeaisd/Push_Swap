@@ -1,4 +1,4 @@
-# 🏗️ Push_Swap Project
+# 🏗️ Push Swap
 
 ## 🚀 Overview
 
@@ -170,6 +170,88 @@ The algorithm uses these operations to manipulate stacks efficiently:
 - rrr: Perform rra and rrb simultaneously.
 
 Each operation is implemented in a modular manner, logged in `op_list`, and printed as the output.
+
+## 🚀 How to Use
+
+1. **Clone the Repository**
+     
+First, clone the repository to your local machine:
+```shell
+git clone [github_repo_link]
+cd Push_Swap
+```
+
+2. **Compile the Program**
+   
+Use the provided `Makefile` to compile the program:
+```shell
+make        # Builds the executable
+make clean  # Removes object files
+make fclean # Removes object files and the executable
+make re     # Cleans and recompiles the program
+```
+
+3. **Run the Program**
+   
+Execute the program with a list of integers as arguments. For example:
+```shell
+./push_swap 4 3 2 1
+```
+
+4. **Behavior**
+   
+The program validates the input:
+Ensures no duplicates.
+Verifies all arguments are integers within the valid range.
+If invalid input is provided, it prints an error message:
+```shell
+Error
+```
+If the input is valid, it calculates the optimal sequence of operations to sort the numbers.
+
+5. **Testing**
+
+You can test the program with various cases:
+```shell
+./push_swap 2 1 3
+./push_swap 5 4 3 2 1
+```
+For larger datasets, you can generate random numbers to test:
+```shell
+ARG=$(seq 1 100 | shuf); ./push_swap $ARG
+```
+
+6. **Clean Up**
+   
+When you're done, clean up compiled files:
+```shell
+make fclean
+```
+
+### Benchmarking Requirements
+
+The following table outlines the maximum number of operations allowed for different input sizes based on the project requirements for achiveing maximum score:
+
+| **Input Size** | **Maximum Operations Allowed** |
+|-----------------|--------------------------------|
+| 3               | 3                              |
+| 5               | 12                             |
+| 100             | ≤ 700                          |
+| 500             | ≤ 5,500                        |
+
+---
+
+### 📊 Program Performance
+
+**For <= 100 :**
+
+![Screenshot 2024-11-24 032006](https://github.com/user-attachments/assets/7231d71f-7aa8-4546-8f3e-588d05bb8818)
+
+**For <= 500 :**
+  
+![Screenshot 2024-11-24 032100](https://github.com/user-attachments/assets/e76be19a-a145-4f3b-af1d-0006a20b0fcc)
+
+---
 
 ## 🌟 Strengths of the Project
 ### ⚡ Optimized Performance:
