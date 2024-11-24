@@ -239,7 +239,6 @@ The following table outlines the maximum number of operations allowed for differ
 | 100             | ≤ 700                          |
 | 500             | ≤ 5,500                        |
 
----
 
 ## 📊 Program Performance
 
@@ -252,7 +251,6 @@ The following table outlines the maximum number of operations allowed for differ
   
 ![Screenshot 2024-11-24 032426](https://github.com/user-attachments/assets/d8b79a73-c55e-4635-b20b-77dcacbe6143)
 
----
 
 ## 🌟 Strengths of the Project
 ### ⚡ Optimized Performance:
