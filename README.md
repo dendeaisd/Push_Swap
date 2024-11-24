@@ -245,13 +245,14 @@ The following table outlines the maximum number of operations allowed for differ
 
 **For <= 100 :**
 
-![Screenshot 2024-11-24 032006](https://github.com/user-attachments/assets/7231d71f-7aa8-4546-8f3e-588d05bb8818)
+![Screenshot 2024-11-24 032407](https://github.com/user-attachments/assets/c323effd-e32d-4fe5-ad9f-52b3a27b138e)
+
 
 **For <= 500 :**
   
-![Screenshot 2024-11-24 032100](https://github.com/user-attachments/assets/e76be19a-a145-4f3b-af1d-0006a20b0fcc)
+![Screenshot 2024-11-24 032426](https://github.com/user-attachments/assets/d8b79a73-c55e-4635-b20b-77dcacbe6143)
 
----
+
 
 ## 🌟 Strengths of the Project
 ### ⚡ Optimized Performance:
