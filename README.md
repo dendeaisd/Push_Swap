@@ -228,7 +228,7 @@ When you're done, clean up compiled files:
 make fclean
 ```
 
-### Benchmarking Requirements
+## Benchmarking Requirements
 
 The following table outlines the maximum number of operations allowed for different input sizes based on the project requirements for achiveing maximum score:
 
@@ -241,7 +241,7 @@ The following table outlines the maximum number of operations allowed for differ
 
 ---
 
-### 📊 Program Performance
+## 📊 Program Performance
 
 **For <= 100 :**
 
